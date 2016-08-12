@@ -18,6 +18,12 @@ And then execute:
 
     $ bundle
 
+The current version of mina-appsignal is for use with mina 1.0+. If you want to stick to past mina release, you have to use 0.0.x branch:
+
+```ruby
+gem 'mina-appsignal', '~>0.0.2', require: false
+```
+
 ## Usage
 
 **Note:** Currently requires `curl` to be present on the server for notifications to be sent.  Patches happily accepted to improve this limitation!
